@@ -17,14 +17,14 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
-  
 }
 li a {
   float: right;
+  font-family: Cyberpunk;
 }
 li a {
   display: block;
-  color: white;
+  color: rgb(7, 6, 6);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -38,34 +38,45 @@ li  {
 }
 li b {
     display: block;
-    color: white;
+    color: rgb(7, 7, 7);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 2em;
   }
 li a:hover:not(.active) {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 li b:hover:not(.active) {
-    color: black;
+    color: rgb(255, 255, 255);
   }
 .fyrirsogn {
-    font-weight: 300;
-    text-transform: uppercase;
-    font-size: 10em;
-    text-align: left;
-    padding-left: 1em;
+    max-width: 70em;
+    margin-top: 7em;
 }
 .header h1{
     color: black;
 }
-.header{
+body h1{
+    
     
 }
-@media screen and (min-width:48em) {
+@media screen an
+ (min-width:48em) {
     body{
         height: 100vh;
     }
 }
+iframe {
+  border-style: solid;
+  border-width: medium;
+  border-color: rgb(114, 110, 110);
+  margin-left: 5em;
+  margin-top: 1em;
+  
+}
 
+@font-face {
+  font-family: CyberpunkFont;
+  src: url(Cyberpunk-Regular.ttf);
+}
