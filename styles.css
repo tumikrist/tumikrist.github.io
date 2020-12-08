@@ -1,0 +1,82 @@
+body {
+    font-family: "Open Sans",sand-serid;
+    color: #fff;
+    margin: auto;
+    line-height: 1.5;
+    background-image:url(https://image-cdn.essentiallysports.com/wp-content/uploads/20201028144137/cyberpunk-2077-is-delayed-again-to-december.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li a {
+  float: right;
+  font-family: Cyberpunk;
+}
+li a {
+  display: block;
+  color: rgb(7, 6, 6);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2em;
+}
+li b {
+    float:left;
+}
+li  {
+    float:center;
+}
+li b {
+    display: block;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2em;
+  }
+li a:hover:not(.active) {
+  color: rgb(255, 255, 255);
+}
+li b:hover:not(.active) {
+    color: rgb(255, 255, 255);
+  }
+.fyrirsogn {
+    max-width: 70em;
+    margin-top: 7em;
+}
+.header h1{
+    color: black;
+}
+body h1{
+    
+    
+}
+@media screen an
+ (min-width:48em) {
+    body{
+        height: 100vh;
+    }
+}
+iframe {
+  border-style: solid;
+  border-width: medium;
+  border-color: rgb(114, 110, 110);
+  margin-left: 5em;
+  margin-top: 1em;
+  
+}
+
+@font-face {
+  font-family: CyberpunkFont;
+  src: url(Cyberpunk-Regular.ttf);
+}
