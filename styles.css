@@ -32,6 +32,7 @@ li a {
 }
 li b {
     float:left;
+    font-family: Cyberpunk;
 }
 li  {
     float:center;
@@ -57,9 +58,8 @@ li b:hover:not(.active) {
 .header h1{
     color: black;
 }
-body h1{
-    
-    
+html{
+  scroll-behavior: smooth;
 }
 @media screen and (min-width:48em){
     body{
@@ -79,3 +79,6 @@ iframe {
   font-family: CyberpunkFont;
   src: url(Cyberpunk-Regular.ttf);
 }
+ citylife {
+   color: black;
+ }
