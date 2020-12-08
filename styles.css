@@ -61,8 +61,7 @@ body h1{
     
     
 }
-@media screen an
- (min-width:48em) {
+@media screen and (min-width:48em){
     body{
         height: 100vh;
     }
