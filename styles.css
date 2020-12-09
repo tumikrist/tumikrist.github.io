@@ -6,6 +6,7 @@ body {
     background-image:url(https://image-cdn.essentiallysports.com/wp-content/uploads/20201028144137/cyberpunk-2077-is-delayed-again-to-december.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 body {margin:0;}
 
@@ -30,14 +31,14 @@ li a {
   text-decoration: none;
   font-size: 2em;
 }
-li b {
+.left {
     float:left;
     font-family: Cyberpunk;
 }
 li  {
     float:center;
 }
-li b {
+.left {
     display: block;
     color: rgb(7, 7, 7);
     text-align: center;
@@ -48,7 +49,7 @@ li b {
 li a:hover:not(.active) {
   color: rgb(255, 255, 255);
 }
-li b:hover:not(.active) {
+.left:hover:not(.active) {
     color: rgb(255, 255, 255);
   }
 .fyrirsogn {
@@ -61,6 +62,10 @@ li b:hover:not(.active) {
 html{
   scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
 @media screen and (min-width:48em){
     body{
         height: 100vh;
@@ -72,13 +77,143 @@ iframe {
   border-color: rgb(114, 110, 110);
   margin-left: 5em;
   margin-top: 1em;
+  margin-bottom: 5em;
   
 }
 
 @font-face {
-  font-family: CyberpunkFont;
+  font-family: Cyberpunk;
   src: url(Cyberpunk-Regular.ttf);
 }
- citylife {
+ .citylife {
    color: black;
+   font-family: Cyberpunk;
  }
+ .nightlife {
+  color: black;
+  font-family: Cyberpunk;
+  font-size: 3em;
+}
+.nightlife a {
+  margin-top: 10em;
+}
+
+ .asd{
+   border-style: solid;
+   border-width: 0.5em;
+   border-color: rgb(29, 27, 27);
+   margin-left: 7em;
+   margin-right: 10em;
+  background-color: black;
+  background: rgb(255,255,0,0.7);
+   margin-bottom: 20em;
+   
+ }
+ .asd a {
+  font-size: 30px;
+  color: black;
+}
+ .cityI {
+  margin-left: 1em;
+  margin-right: 0.5em;
+ }
+ 
+
+.cityL {
+  margin-left: 2em;
+  font-family: Cyberpunk;
+  color: black;
+  font-size: 3em;
+  margin-top: 10em;
+}
+
+.night{
+  padding-bottom: 50px;
+  border-style: solid;
+  border-width: 0.5em;
+  border-color: rgb(29, 27, 27);
+  margin-left: 7em;
+  margin-right: 10em;
+  background-color: black;
+  background: rgb(255,255,0,0.7);
+  margin-bottom: 20em;
+}
+
+.nightL {
+  margin-left: 2em;
+  font-family: Cyberpunk;
+  color: black;
+  font-size: 3em;
+}
+.night a {
+  font-size: 30px;
+  color: black;
+}
+ .gangsI {
+  margin-left: 1em;
+  margin-right: 0.5em;
+ }
+
+.wps{
+  
+  border-style: solid;
+  border-width: 0.5em;
+  border-color: rgb(29, 27, 27);
+  margin-left: 7em;
+  margin-right: 10em;
+  background-color: black;
+  background: rgb(255,255,0,0.7);
+  margin-bottom: 20em;
+  
+}
+
+.wpsL {
+  margin-left: 2em;
+  font-family: Cyberpunk;
+  color: black;
+  font-size: 3em;
+}
+.wps a {
+  font-size: 30px;
+  color: black;
+}
+.wepI {
+  margin-left: 1em;
+  margin-right: 0.5em;
+}
+
+.crs{
+  
+  border-style: solid;
+  border-width: 0.5em;
+  border-color: rgb(29, 27, 27);
+  margin-left: 7em;
+  margin-right: 10em;
+  background-color: black;
+  background: rgb(255,255,0,0.7);
+  margin-bottom: 20em;
+}
+
+.crsL {
+  margin-left: 2em;
+  font-family: Cyberpunk;
+  color: black;
+  font-size: 3em;
+}
+.crs a {
+  font-size: 30px;
+  color: black;
+}
+.carI {
+  margin-left: 1em;
+  margin-right: 0.5em;
+}
+.maps {
+  margin-left: 10em;
+}
+
+@media screen and (max-width: 37.5em){
+  body{
+    
+  }
+}
